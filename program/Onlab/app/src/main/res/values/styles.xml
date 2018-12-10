@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!-- probe -->
+    <!-- <attr format="reference" name="colorText"/> -->
+
+    <!-- Legend -->
+    <!-- changing theme needs "star" lines*****************************************  -->
+
+    <!-- AndroidManifest.xml -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- App Background ********************************************* -->
+        <item name="android:windowBackground">@color/window_background_light</item>
+        <!-- TopStatusBar background -->
+        <item name="colorPrimaryDark">#21272b</item>
+        <!-- AppBar background -->
+        <item name="colorPrimary">#263238</item>
+
+        <!-- Settings \ category -->
+        <item name="colorAccent">@color/colorAccent_light</item>
+        <!-- Settings \ onlick animation -->
+        <item name="colorControlHighlight">#DF0174</item>
+        <!-- Settings \ description -->
+        <!-- BLACK *****************************************************  -->
+        <!-- Settings \ alert dialog \ items **************************** -->
+        <item name="android:textColorAlertDialogListItem">#263238</item>
+
+        <!-- TextView \ text ******************************************** -->
+        <item name="android:textColor">#000000</item>
+        <!-- TextInputLayout \ EditText \ text ************************** -->
+        <item name="android:editTextColor">#000000</item>
+        <!-- TextInputLayout \ EditText \ edit -->
+        <item name="android:textColorHint">#848484</item>
+        <!-- TextInputLayout \ EditText \ single underline \ inactive -->
+        <item name="colorControlNormal">#848484</item>
+        <!-- TextInputLayout \ EditText \ single underline \ active -->
+        <item name="colorControlActivated">#FF4081</item>
+
+        <!-- Pink Hamburger -->
+        <item name="drawerArrowStyle">@style/DrawerHamburgerStyle</item>
+        <!-- not here !! -->
+        <!-- ProgressBar -->
+    </style>
+
+    <style name="DrawerHamburgerStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle" />
+    <!--
+    <item name="spinBars">true</item>
+    <item name="color">#FF4081</item>
+    -->
+
+<style name="ProgressIndigo" parent="Theme.AppCompat.Light">
+    <item name="colorAccent">#2E9AFE</item>
+    <item name="android:progressBackgroundTint">#2E9AFE</item>
+</style>
+
+
+
+<!-- not used !
+<item name="android:panelBackground">#848484</item>
+<item name="preferenceTheme">#FF4081</item>
+<item name="preferenceCategoryStyle">#FF4081</item>
+<item name="actionMenuTextColor">#BDBDBD</item>
+<item name="android:textColorPrimary">#0101DF</item>
+<item name="android:textColorPrimaryInverse">#FE2EC8</item>
+<item name="android:textColorSecondary">#DF01D7</item>
+ -->
+
+
+
+
+
+
+    <!-- no action bar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- APP BAR text and 3dots are light / dark -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!-- OPTIONS menu light / dark -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+
+
+
+</resources>

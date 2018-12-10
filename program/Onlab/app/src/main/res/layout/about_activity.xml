@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Home.AboutActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:id="@+id/about_table"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:stretchColumns="1">
+
+        <!-- WHO -->
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_who"
+                    android:textColor="@color/colorAccent_light"
+                    android:textStyle="bold" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_who" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_author" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_author"
+                    android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_email" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_email" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_phone" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_phone" />
+        </TableRow>
+
+        <!-- HOW -->
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_how"
+                    android:textColor="@color/colorAccent_light"
+                    android:textStyle="bold" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_how" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_OS" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_OS" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_language" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_language" />
+        </TableRow>
+
+
+        <!-- WHAT -->
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_what"
+                    android:textColor="@color/colorAccent_light"
+                    android:textStyle="bold" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_what" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_app" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_app" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_license" />
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/info_license" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                    android:padding="3dip"
+                    android:text="@string/column_desc"
+                    android:textColor="@color/colorAccent_light"
+                    android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+            android:id="@+id/table_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_desc"
+            android:padding="3dip"
+            app:layout_constraintTop_toBottomOf="@+id/about_table"
+    />
+
+</android.support.constraint.ConstraintLayout>

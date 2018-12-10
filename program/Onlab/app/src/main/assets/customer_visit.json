@@ -1,0 +1,34 @@
+{
+  "visits":[
+    {
+      "sender":"BMW",
+      "title":"Weekly sales meeting",
+      "details":"Special tires for strong V6 engines.",
+      "time":"24.Nov 10:42am"
+    },
+    {
+      "sender":"Tesla",
+      "title":"Narrow tires",
+      "details":"Presentation about advanced narrow tires.",
+      "time":"24.Nov 14:30pm"
+    },
+    {
+      "sender":"John Deere",
+      "title":"Company car fleet",
+      "details":"Tires replacement. Ask about tractors.",
+      "time":"25.Nov 9:40am"
+    },
+    {
+      "sender":"Volkswagen",
+      "title":"After diesel age",
+      "details":"Less amount of total tires",
+      "time":"26.Nov 13:13pm"
+    },
+    {
+      "sender":"LADA",
+      "title":"Winter tires",
+      "details":"Extreme cold russian winter makes tires fragile under minus 20 Celsius",
+      "time":"26.Nov 16:16pm"
+    }
+  ]
+}

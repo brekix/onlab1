@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ConstraintLayout - not needed -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/horizontal_padding"
+            android:paddingLeft="@dimen/vertical_padding"
+            android:paddingRight="@dimen/vertical_padding"
+            android:paddingTop="@dimen/horizontal_padding">
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/query_test"
+                android:text="TEST SQL Connection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:padding="3dip"/>
+
+        <TextView
+                android:id="@+id/query_head"
+                android:text="TOP 20 customers from MSSQL Adventureworks2016"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginBottom="8dp"
+                android:padding="3dip"/>
+
+        <TextView
+                android:id="@+id/query_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BODY"
+                android:padding="3dip"/>
+
+    </LinearLayout>
+
+</ScrollView>

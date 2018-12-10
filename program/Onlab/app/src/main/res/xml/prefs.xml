@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="preference_screen">
+
+    <PreferenceCategory android:title="GENERAL">
+        <ListPreference
+                android:title="Language"
+                android:defaultValue="english"
+                android:entries="@array/lang_entries"
+                android:entryValues="@array/lang_values"
+                android:key="pref_lang"
+                android:summary="%s"/>
+        <ListPreference
+                android:title="Theme"
+                android:defaultValue="light"
+                android:entries="@array/theme_entries"
+                android:entryValues="@array/theme_values"
+                android:key="pref_theme"
+                android:summary="%s"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="COMFORT ZONE">
+        <SwitchPreference
+                android:title="Tips and tricks"
+                android:defaultValue="true"
+                android:key="pref_tips"
+                android:summary="Always show tips on login screen" />
+        <ListPreference
+                android:title="Timeout (automatic logout)"
+                android:defaultValue="30"
+                android:entries="@array/timeout_entries"
+                android:entryValues="@array/timeout_values"
+                android:key="pref_timeout"
+                android:summary="%s" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="USER">
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+        <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+        <EditTextPreference
+                android:title="Test user"
+                android:defaultValue="T1000@skynet.com"
+                android:capitalize="words"
+                android:inputType="textCapWords"
+                android:key="example_text"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:summary="T1000@skynet.com"/>
+        <SwitchPreference
+                android:title="Remember me"
+                android:defaultValue="true"
+                android:key="pref_rememberme"
+                android:summary="Save my username" />
+        <SwitchPreference
+                android:title="Auto login"
+                android:defaultValue="false"
+                android:key="pref_autologin"
+                android:summary="Save my password (not recommended)" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="FINANCE">
+        <EditTextPreference
+                android:title="Approval email address"
+                android:defaultValue="finance@company.com"
+                android:key="222"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:summary="finance@company.com" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="ADVANCED">
+        <SwitchPreference
+                android:title="VPN auto connect"
+                android:defaultValue="true"
+                android:key="pref_autoconnect"
+                android:summary="Automatic (recommended)*\n*Profiles are in VPN app" />
+        <EditTextPreference
+                android:title="Database connection URL string"
+                android:defaultValue="default"
+                android:key="pref_sqlconnection"
+                android:maxLines="5"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:summary="jdbc:jtds:sqlserver://192.168.1.99:1433;databaseName=AdventureWorks2016" />
+        <SwitchPreference
+                android:title="SSO"
+                android:defaultValue="true"
+                android:key="pref_SSO"
+                android:summary="Single sign onto SQL server (recommended)" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="PRIVACY">
+        <CheckBoxPreference
+                android:title="Reset to factory defaults"
+                android:defaultValue="false"
+                android:key="pref_reset"
+                android:maxLines="2"
+                android:summary="Clear all saved data eg. username, password,SQL connection string, approval email address, customized recent customer list, etc." />
+    </PreferenceCategory>
+
+    <!--empty preference to occupy space and to prevent overlap of fab with preferences-->
+    <PreferenceCategory
+            android:title="">
+        <Preference
+                android:title=""
+                android:summary=""/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

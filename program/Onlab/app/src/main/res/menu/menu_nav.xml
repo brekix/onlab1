@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:showIn="navigation_hamburger">
+
+    <group
+            android:id="@+id/group1">
+        <item
+                android:id="@+id/cust_tovisit_action"
+                android:title="@string/menu_visit"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/ic_favorite_red" />
+    </group>
+
+    <group
+            android:id="@+id/group2"
+            android:title="Sub items">
+        <item
+                android:id="@+id/option_settings_action"
+                android:title="@string/menu_settings"
+                android:icon="@drawable/ic_settings"
+                app:showAsAction="never" />
+        <item
+                android:id="@+id/option_about_action"
+                android:title="@string/menu_about"
+                android:icon="@drawable/ic_car"
+                app:showAsAction="never" />
+        <item
+                android:id="@+id/option_license_action"
+                android:title="@string/menu_license"
+                android:icon="@drawable/ic_school"
+                app:showAsAction="never" />
+    </group>
+    <group
+            android:id="@+id/group3"
+            android:title="Sub items">
+        <item
+                android:id="@+id/option_exit_action"
+                android:title="@string/menu_exit"
+                android:icon="@drawable/ic_return_black"
+                app:showAsAction="never" />
+    </group>
+
+    <group
+            android:id="@+id/group4">
+        <item
+                android:id="@+id/sqltest_action"
+                android:title="SQL test"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/ic_lamp" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,11 @@
+        //https://www.magnumcollision.com/dealerships/tesla-logo/
+        //https://www.magnumcollision.com/wp-content/uploads/2015/12/tesla-logo-300x300.png
+        //https://www.anychart.com/_core/img/features/anystock/no-data-label.svg
+        //https://commons.wikimedia.org/wiki/File:BMW.svg
+        //http://www.hitachi-automotive-tc.co.th/image/en/r1/img/no_information.jpg
+        // https://code.tutsplus.com/tutorials/showing-material-design-dialogs-in-an-android-app--cms-30013
+        // http://www.spiderbean.com/images/nodatafound.png
+        //https://d2jzmzman2t6te.cloudfront.net/wp-content/uploads/2018/04/12103948/nodata.png
+        //http://siliconangle.com/files/2013/02/no-data.png
+        //https://img3.androidappsapk.co/300/e/d/e/jc.app.disableData.png
+        //https://www.adsct.com.au/assets/images/not-found.png

@@ -1,0 +1,22 @@
+{
+  "fiscal":[
+    {
+      "title":"Tesla",
+      "rating":8,
+      "posterUri":"tesla300",
+      "overview":"Invoices are payed fine.\nAnnual order is 5000 tires.\nAlready ordered only 3400 pcs (bad !).\nMinimum order is 20 tires at a time.\nTyre discount is max.5%"
+    },
+    {
+      "title":"BMW",
+      "rating":9,
+      "posterUri":"bmw500",
+      "overview":"Invoices are payed fine.\nAnnual order is 37000 tires.\nAlready ordered 32500 pcs (good !).\nMinimum order is 20 tires at a time.\nTyre discount is max.7%"
+    },
+    {
+      "title":"NO customer in database",
+      "rating":0,
+      "posterUri":"nodata",
+      "overview":"no details"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ConstraintLayout - not needed -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/horizontal_padding"
+            android:paddingLeft="@dimen/vertical_padding"
+            android:paddingRight="@dimen/vertical_padding"
+            android:paddingTop="@dimen/horizontal_padding">
+
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/titleTextView"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textColor="@color/colorTitle"
+                            android:textSize="@dimen/title_text_size"/>
+
+                    <TextView
+                            android:id="@+id/ratingTextView"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/subtitle_text_size"/>
+
+                </LinearLayout>
+
+                <ImageView
+                        android:id="@+id/posterImageView"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:adjustViewBounds="true"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/overviewTextView"
+                    android:layout_marginTop="@dimen/horizontal_margin"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/body_text_size"/>
+
+
+
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+
+                    android:paddingTop="@dimen/horizontal_padding"
+                    android:orientation="vertical" >
+
+                <!--
+                <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/email_fab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="@dimen/fab_margin"
+                        app:srcCompat="@android:drawable/ic_dialog_email"/>
+                -->
+                <Button
+                        android:id="@+id/email_fab"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:text="Ask for approval"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>

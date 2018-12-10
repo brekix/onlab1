@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    -->
+
+
+    <color name="colorText_light">#263238</color>
+    <color name="colorBack_light">#21272b</color>
+    <color name="colorAccent_light">#FF4081</color>
+
+
+    <color name="window_background_light">#fff5f5</color>
+    <!-- <color name="window_background_light">#21272b</color> -->
+
+    <!-- fiscal_fragment \ android:textColor="@color/colorTitle" -->
+    <color name="colorTitle">#000000</color>
+
+
+    <!-- recycle view -->
+    <color name="colorOrange">#F2B32A</color>
+
+
+
+
+
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorPrimaryLight">#cfd8dc</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- <color name="colorAccent">#ffc107</color> -->
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#99444444</color>
+    <color name="gray_dark">#616161</color>
+    <color name="gray_light">#9e9e9e</color>
+    <color name="brown">#5d4037</color>
+
+
+</resources>
