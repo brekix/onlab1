@@ -64,8 +64,8 @@
 
     <string name="info_who">""</string>
     <string name="info_author">Berki Máté</string>
-    <string name="info_email">mate.berki@hotmail.com</string>
-    <string name="info_phone">+36 20 955 944 2</string>
+    <string name="info_email">a@a.a</string>
+    <string name="info_phone">+36 20 123 123 1</string>
     <string name="info_how">""</string>
     <string name="info_OS">Android</string>
     <string name="info_language">Kotlin</string>
